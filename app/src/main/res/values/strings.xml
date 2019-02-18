@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Helper</string>
+    <string name="I">Ja</string>
+    <string name="Cold">Zimno</string>
+    <string name="Hot">Ciepło</string>
+    <string name="Drink">Pić</string>
+    <string name="Eat">Jeść</string>
+    <string name="Pain">Boli</string>
+    <string name="Head">Głowa</string>
+    <string name="LeftArm">Lewa ręka</string>
+    <string name="RightArm">Prawa ręka</string>
+    <string name="LeftLeg">Lewa noga</string>
+    <string name="RightLeg">Prawa noga</string>
+    <string name="Quiet">Ciszej</string>
+    <string name="Loud">Głośniej</string>
+    <string name="Tired">Spać</string>
+</resources>

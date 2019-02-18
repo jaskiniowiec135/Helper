@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/appBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2">
+
+            <Button
+                android:id="@+id/btnI"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/I"
+                android:textSize="30sp"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:contentDescription="@string/app_name"
+                android:onClick="onClick"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/buttonBG"/>
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Wyczyść"
+                android:textSize="30sp"
+                android:contentDescription="@string/app_name"
+                android:onClick="onClick"
+                android:background="@color/colorClear"
+                />
+
+            <Button
+                android:id="@+id/btnCold"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/Cold"
+                android:textSize="30sp"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG"/>
+
+            <Button
+                android:id="@+id/btnHot"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/Hot"
+                android:textSize="30sp"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG"/>
+
+            <Button
+                android:id="@+id/btnDrink"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/Drink"
+                android:textSize="30sp"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG"/>
+
+            <Button
+                android:id="@+id/btnFood"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/Eat"
+                android:textSize="30sp"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG" />
+
+            <Button
+                android:id="@+id/btnPain"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/Pain"
+                android:textSize="30sp"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG"/>
+
+            <Button
+                android:id="@+id/btnHead"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/Head"
+                android:textSize="30sp"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG" />
+
+            <Button
+                android:id="@+id/btnLeftArm"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/LeftArm"
+                android:textSize="30sp"
+                android:layout_column="0"
+                android:layout_row="4"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG" />
+
+            <Button
+                android:id="@+id/btnRightArm"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/RightArm"
+                android:textSize="30sp"
+                android:layout_column="1"
+                android:layout_row="4"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-14dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG" />
+
+            <Button
+                android:id="@+id/btnLeftLeg"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/LeftLeg"
+                android:textSize="30sp"
+                android:layout_column="0"
+                android:layout_row="5"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG" />
+
+            <Button
+                android:id="@+id/btnRightLeg"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/RightLeg"
+                android:textSize="30sp"
+                android:layout_column="1"
+                android:layout_row="5"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-14dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG" />
+
+            <Button
+                android:id="@+id/btnLoud"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/Loud"
+                android:textSize="30sp"
+                android:layout_column="0"
+                android:layout_row="6"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG" />
+
+            <Button
+                android:id="@+id/btnQuiet"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/Quiet"
+                android:textSize="30sp"
+                android:layout_column="1"
+                android:layout_row="6"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG" />
+
+            <Button
+                android:id="@+id/btnTired"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:text="@string/Tired"
+                android:textSize="30sp"
+                android:layout_column="0"
+                android:layout_row="7"
+                android:contentDescription="@string/app_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="onClick"
+                android:background="@color/buttonBG" />
+
+            <ImageView
+                android:id="@+id/imgTmp"
+                android:layout_width="wrap_content"
+                android:layout_height="250px"
+                android:contentDescription="@string/app_name"
+                android:layout_columnSpan="1"
+                android:layout_row="8"
+                app:srcCompat="@color/appBG" />
+
+
+        </GridLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txtOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/txtBg"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</android.support.constraint.ConstraintLayout>
