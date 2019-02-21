@@ -1,17 +1,42 @@
 <resources>
-    <string name="app_name">Helper</string>
-    <string name="I">Ja</string>
-    <string name="Cold">Zimno</string>
-    <string name="Hot">Ciepło</string>
-    <string name="Drink">Pić</string>
-    <string name="Eat">Jeść</string>
-    <string name="Pain">Boli</string>
-    <string name="Head">Głowa</string>
-    <string name="LeftArm">Lewa ręka</string>
-    <string name="RightArm">Prawa ręka</string>
-    <string name="LeftLeg">Lewa noga</string>
-    <string name="RightLeg">Prawa noga</string>
-    <string name="Quiet">Ciszej</string>
-    <string name="Loud">Głośniej</string>
-    <string name="Tired">Spać</string>
+    <string name="app_name">DisableHelper</string>
+    <!--Languages to choose-->
+    <string name="PL">Polski</string>
+    <string name="EN">English</string>
+
+    <!-- Polish -->
+
+    <string name="PL_I">Ja</string>
+    <string name="PL_Clear">Wyczyść</string>
+    <string name="PL_Cold">Zimno</string>
+    <string name="PL_Hot">Ciepło</string>
+    <string name="PL_Drink">Pić</string>
+    <string name="PL_Eat">Jeść</string>
+    <string name="PL_Pain">Boli</string>
+    <string name="PL_Head">Głowa</string>
+    <string name="PL_LeftArm">Lewa ręka</string>
+    <string name="PL_RightArm">Prawa ręka</string>
+    <string name="PL_LeftLeg">Lewa noga</string>
+    <string name="PL_RightLeg">Prawa noga</string>
+    <string name="PL_Quiet">Ciszej</string>
+    <string name="PL_Loud">Głośniej</string>
+    <string name="PL_Tired">Spać</string>
+
+    <!-- English -->
+
+    <string name="EN_I">I</string>
+    <string name="EN_Clear">Clear</string>
+    <string name="EN_Cold">Cold</string>
+    <string name="EN_Hot">Hot</string>
+    <string name="EN_Drink">Drink</string>
+    <string name="EN_Eat">Eat</string>
+    <string name="EN_Pain">Pain</string>
+    <string name="EN_Head">Head</string>
+    <string name="EN_LeftArm">Left arm</string>
+    <string name="EN_RightArm">Right arm</string>
+    <string name="EN_LeftLeg">Left leg</string>
+    <string name="EN_RightLeg">Right leg</string>
+    <string name="EN_Quiet">Quiet</string>
+    <string name="EN_Loud">Loud</string>
+    <string name="EN_Tired">Tired</string>
 </resources>
